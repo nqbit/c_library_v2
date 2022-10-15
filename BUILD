@@ -1,6 +1,6 @@
 package(default_visibility = ["//visibility:public"])
 
 cc_library(
-    name = "foo",
-    hdrs = ["foo.h"]
+    name = "libmavlink",
+    hdrs = ["common/mavlink.h"]
 )
